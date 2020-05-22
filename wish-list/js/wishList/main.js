@@ -1,4 +1,4 @@
-function main() {
+const main = () => {
   const iWishFor = [
     "An original eight track of William Shatner's 'Lucy in the Sky with Diamonds'",
     "The ability to think of interesting wishes on short notice",
