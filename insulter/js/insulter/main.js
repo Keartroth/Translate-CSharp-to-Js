@@ -1,4 +1,4 @@
-function main() {
+const main = () => {
   const insults = [
     "You look like what morning breath smells like.",
     "If you tried to give me cpr I would probably throw myself back under water",
@@ -18,7 +18,7 @@ function main() {
     }
   }
 
-  for (let i=0; i<indexes.length; i++) {
+  for (let i = 0; i < indexes.length; i++) {
     const index = indexes[i];
     console.log(insults[index]);
   }
